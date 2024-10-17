@@ -1,4 +1,4 @@
-"""def number_1(n):
+def number_1(n):
     for i in range(n):
         for j in range(i+1):
             print("1",end=" ")
@@ -122,7 +122,7 @@ def diamond_numptrn(n,p=1):
             print(p,end=" ")
         p+=1   
         print() 
-diamond_numptrn(5)  """ 
+diamond_numptrn(5)   
 def diamond_1(n,p=1):
     for i in range(n-1):
         for j in range(n-i):
